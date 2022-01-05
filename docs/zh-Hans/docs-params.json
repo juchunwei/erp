@@ -1,0 +1,13 @@
+{
+  "parameters": [
+    {
+      "name": "UI",
+      "displayName": "UI",
+      "values": {
+        "MVC": "MVC / Razor Pages",
+        "Blazor": "Blazor",
+        "NG": "Angular"
+      }
+    }
+  ]
+}

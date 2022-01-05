@@ -1,0 +1,181 @@
+{
+  "items": [
+    {
+      "text": "入门",
+      "items": [
+        {
+          "text": "基础操作",
+          "path": "Getting-Started.md"
+        }
+      ]
+    },
+    {
+      "text": "物料管理",
+      "items": [
+        {
+          "text": "物料",
+          "path": "Items/Items.md"
+        }
+      ]
+    },
+    {
+      "text": "库存管理",
+      "items": [
+        {
+          "text": "日记账",
+          "items": [
+            {
+              "text": "1: 其他出入库",
+              "path": "Onhands/Journals/MovementJournal.md"
+            },
+            {
+              "text": "2: 调拨单",
+              "path": "Onhands/Journals/TransferJournal.md"
+            },
+            {
+              "text": "3: 库存盘点",
+              "path": "Onhands/Journals/CountingJournal.md"
+            },
+            {
+              "text": "4: 收货单",
+              "path": "Onhands/Journals/Receipt.md"
+            },
+            {
+              "text": "5: 发货单",
+              "path": "Onhands/Journals/PackingSlip.md"
+            }
+          ]
+        },
+        {
+          "text": "库存查询",
+          "path": "Onhands/Onhands.md"
+        },
+        {
+          "text": "收货检验",
+          "path": "Onhands/QC.md"
+        }
+      ]
+    },
+    {
+      "text": "采购",
+      "items": [
+
+      ]
+    },
+    {
+      "text": "销售",
+      "items": [
+
+      ]
+    },
+    {
+      "text": "公司间交易",
+      "path": "InterCompany/InterCompany.md"
+    },
+    {
+      "text": "计划和生产",
+      "path": "Production/Index.md",
+      "items": [
+        {
+          "text": "设置",
+          "items": [
+            {
+              "text": "日历",
+              "path": "Production/Calendars.md"
+            },
+            {
+              "text": "工序",
+              "path": "Production/Operations.md"
+            },
+            {
+              "text": "工艺路线",
+              "path": "Production/Route.md"
+            }
+          ]
+        },
+        {
+          "text": "生产订单",
+          "path": "Production/ProdTable.md"
+        },
+        {
+          "text": "外协",
+          "path": "Production/Outsourcing.md"
+        }
+      ]
+    },
+    {
+      "text": "财务管理",
+      "items": [
+        {
+          "text": "银行",
+          "path": "Financial/Bank.md"
+        }
+      ]
+    },
+    {
+      "text": "总账",
+      "items": [
+
+      ]
+    },
+    {
+      "text": "固定资产",
+      "path": "FixedAsset/FixedAsset.md",
+      "items": [
+
+      ]
+    },
+    {
+      "text": "人力资源",
+      "items": [
+        {
+          "text": "员工",
+          "path": "HR/Employees.md"
+        },
+        {
+          "text": "工资计算",
+          "path": "HR/Payroll/Index.md",
+          "items": [
+            {
+              "text": "工资名称",
+              "path": "HR/Payroll/PayrollItem.md"
+            },
+            {
+              "text": "工资设置",
+              "path": "HR/Payroll/PayrollSetup.md"
+            },
+            {
+              "text": "计件单价",
+              "path": "HR/Payroll/PieceworkPrice.md"
+            },
+            {
+              "text": "个税减免项",
+              "path": "HR/Payroll/TaxExemptions.md"
+            }
+          ]
+
+        }
+      ]
+    },
+    {
+      "text": "文档管理",
+      "items": [
+
+      ]
+    },
+    {
+      "text": "管理",
+      "items": [
+
+        {
+          "text": "设置",
+          "path": "Administration/Settings.md"
+        },
+        {
+          "text": "报表设计",
+          "path": "ContractTemplate.md"
+        }
+      ]
+    }
+  ]
+}
