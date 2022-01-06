@@ -1,3 +1,28 @@
+## 
+
+## 流程
+
+```flowchart
+st=>start: 开始
+e=>end: 结束
+op1=>operation: 物料(设置计划类型和供应商) 
+op2=>operation: 物料清单(设置物料的外协供应商)
+cond=>condition: 是否需要提供原材料给外协供应商(计划类型为外协)?
+op3=>operation: 生产订单
+op4=>operation: 外协作业
+op5=>operation: 采购订单
+op6=>operation: 采购入库
+op7=>operation: 收货质检
+sub1=>subroutine: 外协生产单
+op8=>operation: 外协发货
+op9=>operation: 外协收货入库
+op10=>operation: 生产领料
+st->op1->op2->op3->op4->cond
+cond(yes)->sub1->op8->op9->op7
+cond(no)->op5->op6->op7
+op7->op9->e
+```
+
 ## 方法1
 
 1. 设置物料的计划类型为外协或外协采购
