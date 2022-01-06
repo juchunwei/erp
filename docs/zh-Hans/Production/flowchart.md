@@ -1,5 +1,3 @@
-## 基础设置
-
 ```flowchart
 st=>start: 开始
 e=>end: 结束
@@ -13,7 +11,3 @@ st->setting->op5->e
 setting(path1,left)->op1->op5
 setting(path2, bottom)->op2->op3->op4->op5
 ```
-
-### 工艺路线
-
-### 物料清单

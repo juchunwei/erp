@@ -1,155 +1,155 @@
-{
+ï»¿{
   "items": [
     {
-      "text": "ÈëÃÅ",
+      "text": "å…¥é—¨",
       "items": [
         {
-          "text": "»ù´¡²Ù×÷",
+          "text": "åŸºç¡€æ“ä½œ",
           "path": "Getting-Started.md"
         }
       ]
     },
     {
-      "text": "ÎïÁÏ¹ÜÀí",
+      "text": "ç‰©æ–™ç®¡ç†",
       "items": [
         {
-          "text": "ÎïÁÏ",
+          "text": "ç‰©æ–™",
           "path": "Items/Items.md"
         }
       ]
     },
     {
-      "text": "¿â´æ¹ÜÀí",
+      "text": "åº“å­˜ç®¡ç†",
       "items": [
         {
-          "text": "ÈÕ¼ÇÕË",
+          "text": "æ—¥è®°è´¦",
           "items": [
             {
-              "text": "1: ÆäËû³öÈë¿â",
+              "text": "1: å…¶ä»–å‡ºå…¥åº“",
               "path": "Onhands/Journals/MovementJournal.md"
             },
             {
-              "text": "2: µ÷²¦µ¥",
+              "text": "2: è°ƒæ‹¨å•",
               "path": "Onhands/Journals/TransferJournal.md"
             },
             {
-              "text": "3: ¿â´æÅÌµã",
+              "text": "3: åº“å­˜ç›˜ç‚¹",
               "path": "Onhands/Journals/CountingJournal.md"
             },
             {
-              "text": "4: ÊÕ»õµ¥",
+              "text": "4: æ”¶è´§å•",
               "path": "Onhands/Journals/Receipt.md"
             },
             {
-              "text": "5: ·¢»õµ¥",
+              "text": "5: å‘è´§å•",
               "path": "Onhands/Journals/PackingSlip.md"
             }
           ]
         },
         {
-          "text": "¿â´æ²éÑ¯",
+          "text": "åº“å­˜æŸ¥è¯¢",
           "path": "Onhands/Onhands.md"
         },
         {
-          "text": "ÊÕ»õ¼ìÑé",
+          "text": "æ”¶è´§æ£€éªŒ",
           "path": "Onhands/QC.md"
         }
       ]
     },
     {
-      "text": "²É¹º",
+      "text": "é‡‡è´­",
       "items": [
 
       ]
     },
     {
-      "text": "ÏúÊÛ",
+      "text": "é”€å”®",
       "items": [
 
       ]
     },
     {
-      "text": "¹«Ë¾¼ä½»Ò×",
+      "text": "å…¬å¸é—´äº¤æ˜“",
       "path": "InterCompany/InterCompany.md"
     },
     {
-      "text": "¼Æ»®ºÍÉú²ú",
+      "text": "è®¡åˆ’å’Œç”Ÿäº§",
       "path": "Production/Index.md",
       "items": [
         {
-          "text": "ÉèÖÃ",
+          "text": "è®¾ç½®",
           "items": [
             {
-              "text": "ÈÕÀú",
+              "text": "æ—¥å†",
               "path": "Production/Calendars.md"
             },
             {
-              "text": "¹¤Ğò",
+              "text": "å·¥åº",
               "path": "Production/Operations.md"
             },
             {
-              "text": "¹¤ÒÕÂ·Ïß",
+              "text": "å·¥è‰ºè·¯çº¿",
               "path": "Production/Route.md"
             }
           ]
         },
         {
-          "text": "Éú²ú¶©µ¥",
+          "text": "ç”Ÿäº§è®¢å•",
           "path": "Production/ProdTable.md"
         },
         {
-          "text": "ÍâĞ­",
+          "text": "å¤–å",
           "path": "Production/Outsourcing.md"
         }
       ]
     },
     {
-      "text": "²ÆÎñ¹ÜÀí",
+      "text": "è´¢åŠ¡ç®¡ç†",
       "items": [
         {
-          "text": "ÒøĞĞ",
+          "text": "é“¶è¡Œ",
           "path": "Financial/Bank.md"
         }
       ]
     },
     {
-      "text": "×ÜÕË",
+      "text": "æ€»è´¦",
       "items": [
 
       ]
     },
     {
-      "text": "¹Ì¶¨×Ê²ú",
+      "text": "å›ºå®šèµ„äº§",
       "path": "FixedAsset/FixedAsset.md",
       "items": [
 
       ]
     },
     {
-      "text": "ÈËÁ¦×ÊÔ´",
+      "text": "äººåŠ›èµ„æº",
       "items": [
         {
-          "text": "Ô±¹¤",
+          "text": "å‘˜å·¥",
           "path": "HR/Employees.md"
         },
         {
-          "text": "¹¤×Ê¼ÆËã",
+          "text": "å·¥èµ„è®¡ç®—",
           "path": "HR/Payroll/Index.md",
           "items": [
             {
-              "text": "¹¤×ÊÃû³Æ",
+              "text": "å·¥èµ„åç§°",
               "path": "HR/Payroll/PayrollItem.md"
             },
             {
-              "text": "¹¤×ÊÉèÖÃ",
+              "text": "å·¥èµ„è®¾ç½®",
               "path": "HR/Payroll/PayrollSetup.md"
             },
             {
-              "text": "¼Æ¼şµ¥¼Û",
+              "text": "è®¡ä»¶å•ä»·",
               "path": "HR/Payroll/PieceworkPrice.md"
             },
             {
-              "text": "¸öË°¼õÃâÏî",
+              "text": "ä¸ªç¨å‡å…é¡¹",
               "path": "HR/Payroll/TaxExemptions.md"
             }
           ]
@@ -158,21 +158,21 @@
       ]
     },
     {
-      "text": "ÎÄµµ¹ÜÀí",
+      "text": "æ–‡æ¡£ç®¡ç†",
       "items": [
 
       ]
     },
     {
-      "text": "¹ÜÀí",
+      "text": "ç®¡ç†",
       "items": [
 
         {
-          "text": "ÉèÖÃ",
+          "text": "è®¾ç½®",
           "path": "Administration/Settings.md"
         },
         {
-          "text": "±¨±íÉè¼Æ",
+          "text": "æŠ¥è¡¨è®¾è®¡",
           "path": "ContractTemplate.md"
         }
       ]
