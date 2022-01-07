@@ -18,64 +18,67 @@
         }
       ]
     },
-    {
-      "text": "库存管理",
-      "items": [
-        {
-          "text": "日记账",
-          "items": [
-            {
-              "text": "1: 其他出入库",
-              "path": "Onhands/Journals/MovementJournal.md"
-            },
-            {
-              "text": "2: 调拨单",
-              "path": "Onhands/Journals/TransferJournal.md"
-            },
-            {
-              "text": "3: 库存盘点",
-              "path": "Onhands/Journals/CountingJournal.md"
-            },
-            {
-              "text": "4: 收货单",
-              "path": "Onhands/Journals/Receipt.md"
-            },
-            {
-              "text": "5: 发货单",
-              "path": "Onhands/Journals/PackingSlip.md"
-            }
-          ]
-        },
-        {
-          "text": "库存查询",
-          "path": "Onhands/Onhands.md"
-        },
-        {
-          "text": "收货检验",
-          "path": "Onhands/QC.md"
-        }
-      ]
-    },
-    {
-      "text": "采购",
-      "items": [
+    //{
+    //  "text": "库存管理",
+    //  "items": [
+    //    {
+    //      "text": "日记账",
+    //      "items": [
+    //        {
+    //          "text": "1: 其他出入库",
+    //          "path": "Onhands/Journals/MovementJournal.md"
+    //        },
+    //        {
+    //          "text": "2: 调拨单",
+    //          "path": "Onhands/Journals/TransferJournal.md"
+    //        },
+    //        {
+    //          "text": "3: 库存盘点",
+    //          "path": "Onhands/Journals/CountingJournal.md"
+    //        },
+    //        {
+    //          "text": "4: 收货单",
+    //          "path": "Onhands/Journals/Receipt.md"
+    //        },
+    //        {
+    //          "text": "5: 发货单",
+    //          "path": "Onhands/Journals/PackingSlip.md"
+    //        }
+    //      ]
+    //    },
+    //    {
+    //      "text": "库存查询",
+    //      "path": "Onhands/Onhands.md"
+    //    },
+    //    {
+    //      "text": "收货检验",
+    //      "path": "Onhands/QC.md"
+    //    }
+    //  ]
+    //},
+    //{
+    //  "text": "采购",
+    //  "items": [
 
-      ]
-    },
-    {
-      "text": "销售",
-      "items": [
+    //  ]
+    //},
+    //{
+    //  "text": "销售",
+    //  "items": [
 
-      ]
-    },
+    //  ]
+    //},
     {
       "text": "公司间交易",
       "path": "InterCompany/InterCompany.md"
     },
     {
       "text": "计划和生产",
-      "path": "Production/Index.md",
       "items": [
+        {
+          "text": "概览",
+          "path": "Production/Index.md"
+        },
         {
           "text": "设置",
           "items": [
@@ -100,31 +103,39 @@
         {
           "text": "外协",
           "path": "Production/Outsourcing.md"
-        }
-      ]
-    },
-    {
-      "text": "财务管理",
-      "items": [
+        },
         {
-          "text": "银行",
-          "path": "Financial/Bank.md"
+          "text": "作业汇报",
+          "path": "Production/JobReport.md"
+        },
+        {
+          "text": "工序质检",
+          "path": "Production/QC.md"
         }
       ]
     },
-    {
-      "text": "总账",
-      "items": [
+    //{
+    //  "text": "财务管理",
+    //  "items": [
+    //    {
+    //      "text": "银行",
+    //      "path": "Financial/Bank.md"
+    //    }
+    //  ]
+    //},
+    //{
+    //  "text": "总账",
+    //  "items": [
 
-      ]
-    },
-    {
-      "text": "固定资产",
-      "path": "FixedAsset/FixedAsset.md",
-      "items": [
+    //  ]
+    //},
+    //{
+    //  "text": "固定资产",
+    //  "path": "FixedAsset/FixedAsset.md",
+    //  "items": [
 
-      ]
-    },
+    //  ]
+    //},
     {
       "text": "人力资源",
       "items": [
@@ -160,7 +171,10 @@
     {
       "text": "文档管理",
       "items": [
-
+        {
+          "text": "概览",
+          "path": "PLM/Index.md"
+        }
       ]
     },
     {
@@ -172,8 +186,21 @@
           "path": "Administration/Settings.md"
         },
         {
-          "text": "报表设计",
-          "path": "ContractTemplate.md"
+          "text": "报表",
+          "items": [
+            {
+              "text": "概览",
+              "path": "Administration/Reports/Index.md"
+            },
+            {
+              "text": "自定义报表",
+              "path": "Administration/Reports/CustomReport.md"
+            },
+            {
+              "text": "仪表板",
+              "path": "Administration/Reports/Dashboard.md"
+            }
+          ]
         }
       ]
     }

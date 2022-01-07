@@ -23,7 +23,7 @@
 
 7. 点击`查看所有通知`, 可以打开所有的通知页面
 
-![image-20210225233313181](C:\Users\ju\Docs\zh-Hans\notifiation.png)
+![image-20210225233313181](notifiation.png)
 
 ## 表格操作
 
@@ -33,7 +33,7 @@
 
 3. 分组显示
 
-![image-20210225232821172](C:\Users\ju\Docs\zh-Hans\image-20210225232821172.png)
+![image-20210225232821172](image-20210225232821172.png)
 
 ## 期初设置
 
@@ -43,9 +43,7 @@
 
 ## 数据导入
 
-- 数据模板
-
-点击[下载]([https://www.erp.keyapp.com.cn/template.zip](Https://www.erp.keyapp.com.cn/template.zip))模板
+- 数据模板, 点击[下载]([https://www.erp.keyapp.com.cn/template.zip](Https://www.erp.keyapp.com.cn/template.zip))模板
 
 - 商品数据导入
 

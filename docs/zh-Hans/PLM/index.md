@@ -1,3 +1,24 @@
+### 流程图
+
+```flowchart
+st=>start: 开始
+e=>end: 结束
+setting=>parallel: 基础设置|past
+op1=>operation: 编号规则
+op2=>operation: 文件夹类型
+op3=>operation: 文件夹
+op4=>operation: 文件夹权限
+op5=>operation: 工作流
+op6=>operation: 创建文档
+op7=>operation: 变更单
+op8=>operation: 审核流程
+op9=>operation: 更改文档状态和版本号
+
+st->setting->op5->e
+setting(path1,left)->op5->op2
+setting(path2, bottom)->op1->op2->op3->op4->op6->op7->op8->op9->e
+```
+
 ### 基础设置
 
 1. 编号规则：用于文档、变更单等的自动编号规则。管理-->基础设置-->编号规则，***用于***字段须选择PLM
