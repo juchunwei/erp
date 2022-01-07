@@ -1,5 +1,5 @@
 ## 基础设置
-
+---
 ```flowchart
 st=>start: 开始
 e=>end: 结束
@@ -11,11 +11,12 @@ op4=>operation: 工序
 op5=>operation: 工艺路线
 
 st->setting->op5->e
-setting(path1,left)->op1->op5
+setting(path1,left)->op1->op3
 setting(path2, bottom)->op2->op3->op4->op5
 ```
 
 ### 生产流程
+---
 
 ```flowchart
 st=>start: 开始
@@ -36,8 +37,8 @@ prod(path2, left)->op3->e
 prod(path3, right)->op4->e
 ```
 
-### 计件工资
-
+### 计件工资流程
+---
 ```flowchart
 st=>start: 开始
 s=>end: 结束

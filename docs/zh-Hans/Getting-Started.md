@@ -1,5 +1,6 @@
 
 ## 聊天
+- 搜索并添加用户为好友, 进行在线对话
 
 ## 通知
 
@@ -38,7 +39,7 @@
 
 ## 数据导入
 
-- 数据模板, 点击[下载]([https://www.erp.keyapp.com.cn/template.zip](Https://www.erp.keyapp.com.cn/template.zip))模板
+- 数据模板, 点击[下载]([https://www.erp.apptec.com.cn/template.zip](Https://www.erp.apptec.com.cn/template.zip))模板
 
 - 商品数据导入
 

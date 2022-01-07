@@ -1,12 +1,12 @@
-## Í¼±í
-- ÓÃÓÚÔÚÒÇ±í°åÖÐÏÔÊ¾
-- **Ãû³Æ**,
-- **±êÌâ**, 
-- **ÎÄ¼þ**: javascriptµÄÎÄ¼þÃû, ²»´øjsÀ©Õ¹Ãû, ÐëÉÏ´«µ½·þÎñÆ÷, ÀýÈç:
+ï»¿## å›¾è¡¨
+- ç”¨äºŽåœ¨ä»ªè¡¨æ¿ä¸­æ˜¾ç¤º
+- **åç§°**,
+- **æ ‡é¢˜**, 
+- **æ–‡ä»¶**: javascriptçš„æ–‡ä»¶å, ä¸å¸¦jsæ‰©å±•å, é¡»ä¸Šä¼ åˆ°æœåŠ¡å™¨, ä¾‹å¦‚:
   ```js
   (function () {
-    app.customWidgets.CurrentJobWidget = function () { //CurrentJobWidgetÎªclassÃû×Ö, ÐèÒª×ÔÐÐÐÞ¸Ä
-    //½Å±¾ÄÚÈÝ
+    app.customWidgets.CurrentJobWidget = function () { //CurrentJobWidgetä¸ºclassåå­—, éœ€è¦è‡ªè¡Œä¿®æ”¹
+    //è„šæœ¬å†…å®¹
       var _widget;       
         var _widgetBody;
 
@@ -14,25 +14,25 @@
             _widget = widgetManager.getWidget();
             _widgetBody = _widget.find('.card-body');
         };
-        //±ØÐëµÄº¯Êý, ÓÃÓÚ¶ÁÈ¡Êý¾ÝÖ®ºó, ÉèÖÃÒ³ÃæµÄÏÔÊ¾   
+        //å¿…é¡»çš„å‡½æ•°, ç”¨äºŽè¯»å–æ•°æ®ä¹‹åŽ, è®¾ç½®é¡µé¢çš„æ˜¾ç¤º   
         this.showData = function (data) {
             _widgetBody.empty();
-            /*Ò³ÃæÏÔÊ¾ÄÚÈÝ, ¸ù¾ÝÐèÒªÐÞ¸Ä*/
+            /*é¡µé¢æ˜¾ç¤ºå†…å®¹, æ ¹æ®éœ€è¦ä¿®æ”¹*/
             data.forEach(d => {
                 var endDate = moment(d.EndDate);
 
                 var group = $(`<div class="mb-10"></div>`);
                 var row = $(`<div class="d-flex justify-content-between"></div>`);               
-                row.append(`<div class="form-group"><label>Éú²úµ¥:</label><label>${d.ProdId}</label></div>`);
-                row.append(`<div class="form-group"><label>ÈËÔ±:</label><label>${d.Name}</label></div>`);
+                row.append(`<div class="form-group"><label>ç”Ÿäº§å•:</label><label>${d.ProdId}</label></div>`);
+                row.append(`<div class="form-group"><label>äººå‘˜:</label><label>${d.Name}</label></div>`);
                 group.append(row);
                 row = $(`<div class="d-flex justify-content-between"></div>`);  
-                row.append(`<div class="form-group"><label>²úÆ·±àÂë:</label><label>${d.ItemCode}</label></div>`);
-                row.append(`<div class="form-group"><label>²úÆ·Ãû³Æ:</label><label>${d.ItemName}</label></div>`);
+                row.append(`<div class="form-group"><label>äº§å“ç¼–ç :</label><label>${d.ItemCode}</label></div>`);
+                row.append(`<div class="form-group"><label>äº§å“åç§°:</label><label>${d.ItemName}</label></div>`);
                 group.append(row);
                 row = $(`<div class="d-flex justify-content-between"></div>`);
-                row.append(`<div class="form-group"><label>Êµ¼Ê¿ªÊ¼ÈÕÆÚ:</label><label>${moment(d.ActualStartDate).format('YYYY-MM-DD')}</label></div>`);
-                row.append(`<div class="form-group ${endDate < moment() ? "red" : ""}"><label>¼Æ»®½áÊøÈÕÆÚ:</label><label>${endDate.format('YYYY-MM-DD')}</label></div>`);
+                row.append(`<div class="form-group"><label>å®žé™…å¼€å§‹æ—¥æœŸ:</label><label>${moment(d.ActualStartDate).format('YYYY-MM-DD')}</label></div>`);
+                row.append(`<div class="form-group ${endDate < moment() ? "red" : ""}"><label>è®¡åˆ’ç»“æŸæ—¥æœŸ:</label><label>${endDate.format('YYYY-MM-DD')}</label></div>`);
                 group.append(row);
                 var progress = "25%";
                 var finishedQty = d.JournalQty + d.FinishedQty;
@@ -51,36 +51,36 @@
      }
   })();
   ```
-- **ÄÚÈÝ**: html, ¶¨ÒåÍ¼±íÏÔÊ¾µÄÄÚÈÝ
+- **å†…å®¹**: html, å®šä¹‰å›¾è¡¨æ˜¾ç¤ºçš„å†…å®¹
 
 ```html
 <div class="card card-custom h-100">
     <div class="card-header">
         <div class="card-title">
-            <h4>µ±Ç°¹¤×÷</h4>
+            <h4>å½“å‰å·¥ä½œ</h4>
         </div>
     </div>
     <div class="card-body">
     </div>
 </div>
 ```
-- **ÉèÖÃ**: sqlÓï¾ä, ´ÓÊý¾Ý¿â¶ÁÈ¡ÒªÏÔÊ¾µÄÊý¾Ý
-## ÒÇ±í°å
-- ¶¨ÒåºÃÍ¼±íÖ®ºó, ½«Í¼±íÌí¼Óµ½ÒÇ±í°å
-- **Ãû³Æ**: ÒÇ±í°åµÄÃû³Æ, ÓÃÓÚÏÔÊ¾ÔÚ**¹¤×÷Ì¨**, *×Ô¶¨Òå±¨±í*ÖÐ
-- **Àà±ð**: ×Ô¶¨Òå±¨±íµÄÀà±ð
-- **Ðí¿É**: È¨ÏÞ
-- **ÄÚÈÝ**: Ò»°ã²»ÐèÒªÊÖ¹¤ÉèÖÃ, µã***Ô¤ÀÀ***°´Å¥Ö®ºó, ¿ÉÒÔÔö¼ÓÍ¼±í, µ÷ÕûÍ¼±íµÄ´óÐ¡ºÍÎ»ÖÃµÈ
+- **è®¾ç½®**: sqlè¯­å¥, ä»Žæ•°æ®åº“è¯»å–è¦æ˜¾ç¤ºçš„æ•°æ®
+## ä»ªè¡¨æ¿
+- å®šä¹‰å¥½å›¾è¡¨ä¹‹åŽ, å°†å›¾è¡¨æ·»åŠ åˆ°ä»ªè¡¨æ¿
+- **åç§°**: ä»ªè¡¨æ¿çš„åç§°, ç”¨äºŽæ˜¾ç¤ºåœ¨**å·¥ä½œå°**, *è‡ªå®šä¹‰æŠ¥è¡¨*ä¸­
+- **ç±»åˆ«**: è‡ªå®šä¹‰æŠ¥è¡¨çš„ç±»åˆ«
+- **è®¸å¯**: æƒé™
+- **å†…å®¹**: ä¸€èˆ¬ä¸éœ€è¦æ‰‹å·¥è®¾ç½®, ç‚¹***é¢„è§ˆ***æŒ‰é’®ä¹‹åŽ, å¯ä»¥å¢žåŠ å›¾è¡¨, è°ƒæ•´å›¾è¡¨çš„å¤§å°å’Œä½ç½®ç­‰
 
-## ÒÇ±í°åÉèÖÃ
+## ä»ªè¡¨æ¿è®¾ç½®
 
 ![Dashboard](dashboard.png)
 
-- µã»÷ÓÒÉÏ½ÇµÄÉèÖÃ(³ÝÂÖ)°´Å¥
-- ±à¼­Ä£Ê½: ´ò¿ªÖ®ºó, ¿ÉÒÔÌí¼Ó×Ô¶¨ÒåÍ¼±í, ²¢µ÷ÕûÍ¼±íµÄÎ»ÖÃºÍ´óÐ¡
-- Ë¢ÐÂ: ×Ô¶¯Ë¢ÐÂÊý¾ÝµÄ¼ä¸ô
-- ±êÌâ: ÉèÖÃÖ®ºó, Ö»Õë¶Ôµ±Ç°µÄµçÄÔÆð×÷ÓÃ, ²»Í¬µÄµçÄÔ¿ÉÒÔÉèÖÃ²»Í¬µÄ±êÌâ
-- É¸Ñ¡: ÉèÖÃÉ¸Ñ¡Ìõ¼þ, **Ãû³Æ**ÐèÒªºÍÍ¼±íÖÐµÄsqlÓï¾ä**²éÑ¯²ÎÊý**¶ÔÓ¦, ÖµÖ»Õë¶Ôµ±Ç°µçÄÔÓÐÐ§
+- ç‚¹å‡»å³ä¸Šè§’çš„è®¾ç½®(é½¿è½®)æŒ‰é’®
+- ç¼–è¾‘æ¨¡å¼: æ‰“å¼€ä¹‹åŽ, å¯ä»¥æ·»åŠ è‡ªå®šä¹‰å›¾è¡¨, å¹¶è°ƒæ•´å›¾è¡¨çš„ä½ç½®å’Œå¤§å°
+- åˆ·æ–°: è‡ªåŠ¨åˆ·æ–°æ•°æ®çš„é—´éš”
+- æ ‡é¢˜: è®¾ç½®ä¹‹åŽ, åªé’ˆå¯¹å½“å‰çš„ç”µè„‘èµ·ä½œç”¨, ä¸åŒçš„ç”µè„‘å¯ä»¥è®¾ç½®ä¸åŒçš„æ ‡é¢˜
+- ç­›é€‰: è®¾ç½®ç­›é€‰æ¡ä»¶, **åç§°**éœ€è¦å’Œå›¾è¡¨ä¸­çš„sqlè¯­å¥**æŸ¥è¯¢å‚æ•°**å¯¹åº”, å€¼åªé’ˆå¯¹å½“å‰ç”µè„‘æœ‰æ•ˆ
 
 
 ![Dashboard Setting](dashboard-setting.png)
