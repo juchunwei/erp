@@ -56,12 +56,19 @@
     //    }
     //  ]
     //},
-    //{
-    //  "text": "采购",
-    //  "items": [
-
-    //  ]
-    //},
+    {
+      "text": "采购",
+      "items": [
+        {
+          "text": "采购订单",
+          "path": "Purchase/Index.md"
+        },
+        {
+          "text": "采购申请",
+          "path": "Purchase/PurchReq.md"
+        }
+      ]
+    },
     //{
     //  "text": "销售",
     //  "items": [
@@ -111,18 +118,22 @@
         {
           "text": "工序质检",
           "path": "Production/QC.md"
+        },
+        {
+          "text": "成本",
+          "path": "Production/Cost.md"
         }
       ]
     },
-    //{
-    //  "text": "财务管理",
-    //  "items": [
-    //    {
-    //      "text": "银行",
-    //      "path": "Financial/Bank.md"
-    //    }
-    //  ]
-    //},
+    {
+      "text": "财务管理",
+      "items": [
+        {
+          "text": "概览",
+          "path": "Financial/Index.md"
+        }
+      ]
+    },
     //{
     //  "text": "总账",
     //  "items": [

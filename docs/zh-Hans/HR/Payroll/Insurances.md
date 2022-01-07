@@ -11,4 +11,4 @@
 
 4. 文件上传, 须按特定的格式上传
 
-   ![image-20210808074755962](C:\Users\ju\Docs\zh-Hans\HR\Payroll\image-20210808074755962.png)
+   ![image-20210808074755962](../../images/HR/image-20210808074755962.png)

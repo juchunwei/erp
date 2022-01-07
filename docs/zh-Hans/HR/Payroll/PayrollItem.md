@@ -13,6 +13,6 @@
   - 固定: 表示该项目是固定金额, 不受其他因素影响, 如出勤时间等
   - 设置: 表示该项目需要在**工资设置**中设置
   - 计算: 设置计算的项目: 小时工资, 缺勤工资, 病假工资等, 例如:
-![Payrollitem List](payrollitem-list.png)
-  ![Payrollitem](payrollitem.png)
+![Payrollitem List](../../images/HR/payrollitem-list.png)
+  ![Payrollitem](../../images/HR/payrollitem.png)
 - 

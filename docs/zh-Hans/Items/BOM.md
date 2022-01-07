@@ -5,9 +5,9 @@
 ## 产品设计
 - 可以创建多层BOM, 并添加新物料等
 - 路径: 
-  1. 在物料界面, 选择一个物料, 点产品设计
-  2. 在物料清单界面, 选择一个物料清单, 点产品设计
+  1. 在物料界面, 选择一个物料, 点`产品设计`
+  2. 在物料清单界面, 选择一个物料清单, 点`产品设计`
 - 保存后, 会自动生成各级BOM和创建新的物料
 
 
-![Product Design](../Production/product-design.png)
+![Product Design](../images/Production/product-design.png)

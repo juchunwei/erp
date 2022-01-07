@@ -19,22 +19,22 @@ op3->op4->op5->op6->op7->e
 
 ## 操作
 
-1. 管理-->设置-->参数中, ***启用公司间交易***
+1. 管理-->设置-->参数中, `启用公司间交易`
    
-   ![intercompany-setting1](intercompany-setting1.jpg)
+   ![intercompany-setting1](../images/InterCompany/intercompany-setting1.jpg)
 
-2. 在供应商和客户中设置***外部公司编码***, 即对方公司的网址前缀
+2. 在供应商和客户中设置`外部公司编码`, 即对方公司的网址前缀
    
-   ![intercompany2](intercompany2.jpg)
+   ![intercompany2](../images/InterCompany/intercompany2.jpg)
 
-3. 确保双方公司的<u>**物料编号和物料单位**</u>相同, 或者在物料中设置**<u>外部物料编号</u>**, 对应对方公司的编号
+3. 确保双方公司的`物料编号和物料单位`相同, 或者在物料中设置`外部物料编号`, 对应对方公司的编号
 
 4. 新建采购单, 保存后, 点击公司间交易 -->创建公司间订单
    
-   ![intercompany3](intercompany3.jpg)
+   ![intercompany3](../images/InterCompany/intercompany3.jpg)
 
-5. 供应商在销售订单中点击确认
+5. 供应商在销售订单中点击`确认`
 
-6. 供应商发货后, 新建收货单, 在收货单中选择 供应商, 和对应的发货单, 保存后自动生成收货单
+6. 供应商发货后, 新建收货单, 在收货单中选择 `供应商`, 和对应的发货单, 保存后自动生成收货单
 
-![intercompany4](intercompany4.jpg)
+![intercompany4](../images/InterCompany/intercompany4.jpg)

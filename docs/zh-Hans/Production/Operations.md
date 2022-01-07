@@ -7,4 +7,4 @@
   - 下限: 允许的下限
   - 上限: 允许的上限
 
-![Operation](operation.png)
+![Operation](../images/Production/operation.png)
