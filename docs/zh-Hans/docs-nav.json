@@ -122,6 +122,10 @@
         {
           "text": "成本",
           "path": "Production/Cost.md"
+        },
+        {
+          "text": "安全库存",
+          "path": "Production/SafetyStock.md"
         }
       ]
     },
@@ -131,6 +135,25 @@
         {
           "text": "概览",
           "path": "Financial/Index.md"
+        },
+        {
+          "text": "应付账款",
+          "items": [
+            {
+              "text": "供应商发票",
+              "path": "Financial/AP/Invoice.md"
+            }
+            ,
+            {
+              "text": "付款日记账",
+              "path": "Financial/AP/PaymentJournal.md"
+            }
+          ]
+
+        },
+        {
+          "text": "收付款",
+          "path": "Financial/Payment.md"
         }
       ]
     },
@@ -192,7 +215,7 @@
       "items": [
         {
           "text": "概览",
-          "path": "PLM/Index.md"
+          "path": "PLM/Overview.md"
         }
       ]
     },
@@ -203,6 +226,10 @@
         {
           "text": "设置",
           "path": "Administration/Settings.md"
+        },
+        {
+          "text": "自动编号",
+          "path": "Administration/NumSeq.md"
         },
         {
           "text": "报表",
