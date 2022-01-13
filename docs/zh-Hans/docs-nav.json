@@ -18,44 +18,50 @@
         }
       ]
     },
-    //{
-    //  "text": "库存管理",
-    //  "items": [
-    //    {
-    //      "text": "日记账",
-    //      "items": [
-    //        {
-    //          "text": "1: 其他出入库",
-    //          "path": "Onhands/Journals/MovementJournal.md"
-    //        },
-    //        {
-    //          "text": "2: 调拨单",
-    //          "path": "Onhands/Journals/TransferJournal.md"
-    //        },
-    //        {
-    //          "text": "3: 库存盘点",
-    //          "path": "Onhands/Journals/CountingJournal.md"
-    //        },
-    //        {
-    //          "text": "4: 收货单",
-    //          "path": "Onhands/Journals/Receipt.md"
-    //        },
-    //        {
-    //          "text": "5: 发货单",
-    //          "path": "Onhands/Journals/PackingSlip.md"
-    //        }
-    //      ]
-    //    },
-    //    {
-    //      "text": "库存查询",
-    //      "path": "Onhands/Onhands.md"
-    //    },
-    //    {
-    //      "text": "收货检验",
-    //      "path": "Onhands/QC.md"
-    //    }
-    //  ]
-    //},
+    {
+      "text": "库存管理",
+      "items": [
+        {
+          "text": "收货单",
+          "path": "Onhands/Receipt.md"
+        },
+
+        {
+          "text": "收货检验",
+          "path": "Onhands/QC.md"
+        },
+
+        {
+          "text": "发货单",
+          "path": "Onhands/PackingSlip.md"
+        },
+        {
+          "text": "日记账",
+          "items": [
+            {
+              "text": "其他出入库",
+              "path": "Onhands/Journals/MovementJournal.md"
+            },
+            //{
+            //  "text": "调拨单",
+            //  "path": "Onhands/Journals/TransferJournal.md"
+            //},
+            {
+              "text": "库存盘点",
+              "path": "Onhands/Journals/CountingJournal.md"
+            }
+          ]
+        },
+        {
+          "text": "库存查询",
+          "path": "Onhands/Onhands.md"
+        },
+        {
+          "text": "库存关闭",
+          "path": "Onhands/InventoryClosing.md"
+        }
+      ]
+    },
     {
       "text": "采购",
       "items": [

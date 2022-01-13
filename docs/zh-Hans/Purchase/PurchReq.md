@@ -1,7 +1,7 @@
 ﻿
 ## 审批(两种方式)
 1. 采购申请可以启用工作流, 适用于复杂审批流程的情况. 如要启用工作流, 在管理->设置->参数中启用`采购申请工作流`
-![Purreq Para Enable Workflow](purreq-para-enableWorkflow.png)
+![Purreq Para Enable Workflow](../images/Purchase/purreq-para-enableWorkflow.png)
 2. 也可以不启用工作流, 提交申请之后, 有`采购申请批准`权限的人, 可以对采购申请进行批准. 只有两步操作.
 
 ## 工作流设置
