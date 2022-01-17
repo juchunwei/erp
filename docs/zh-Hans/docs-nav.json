@@ -75,12 +75,15 @@
         }
       ]
     },
-    //{
-    //  "text": "销售",
-    //  "items": [
-
-    //  ]
-    //},
+    {
+      "text": "销售",
+      "items": [
+        {
+          "text": "概览",
+          "path": "Sales/Index.md"
+        }
+      ]
+    },
     {
       "text": "公司间交易",
       "path": "InterCompany/InterCompany.md"
@@ -148,11 +151,24 @@
             {
               "text": "供应商发票",
               "path": "Financial/AP/Invoice.md"
-            }
-            ,
+            },
             {
               "text": "付款日记账",
               "path": "Financial/AP/PaymentJournal.md"
+            }
+          ]
+
+        },
+        {
+          "text": "应收账款",
+          "items": [
+            {
+              "text": "客户发票",
+              "path": "Financial/AR/Invoice.md"
+            },
+            {
+              "text": "付款日记账",
+              "path": "Financial/AR/PaymentJournal.md"
             }
           ]
 
