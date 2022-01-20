@@ -44,8 +44,9 @@
 - 外部物料编码: 用于公司间交易时, 读取对方公司的物料设置
 
 ## 物料属性
-- 物料创建后, 如需修改物料的属性, 在物料页面, 选择物料, 然后点击工具栏上的`物料属性` 按钮
-- 如果物料已经使用, 不允许增加新的属性, 但可以增加`属性值`
+- 物料创建后, 如需修改物料的属性, 在物料页面, 点击物料行上的`物料属性` 按钮.
+- 如果物料已经使用, <font color="red">不允许增加新的属性</font>, 但可以增加`属性值`
 - 可针对物料属性, 设置价格和图片,默认仓库,库位等
 
-![Item Variants ](../images/Items/item-variants.png)
+![Item Variants](../images/Items/item-variants.png)
+![Item Variants1](../images/Items/item-variants1.png)

@@ -36,6 +36,12 @@
 - 公司名称和地址信息: 管理-->公司和门店信息, 新建, 部门留空. 输入其他信息
 
 - 公司Logo. 管理-->设置, 上传Logo, Logo会显示在打印的报表和合同中
+- <font color="red">管理-> 设置中根据需要设置相关的参数. </font>
+- ![Settings](images/Administration/settings.png)
+
+## 库存关闭
+
+参见[库存关闭](Onhands/InventoryClosing.md)
 
 ## 数据导入
 
