@@ -4,7 +4,9 @@
 
 ![Dashboard](../../images/Administration/dashboard.png)
 
-- 新建仪表板: ![Dashboard New](../../images/Administration/dashboard-new.png)
+- 新建仪表板: 填写相关信息.
+![Dashboard New](../../images/Administration/dashboard-new.png)
+
 - 保存后, 点击`设计`按钮, 进入设计页面, 添加图表, 设置参数等
 - ![Dashboard Setting](../../images/Administration/dashboard-setting.png)
 
@@ -16,5 +18,6 @@
 - 文件: javascript的文件名称
 - 内容
 - 设置
+
 
 ![Chart Design](../../images/Administration/chart-design.png)
