@@ -113,6 +113,10 @@
           ]
         },
         {
+          "text": "计划订单",
+          "path": "Production/MasterPlan.md"
+        },
+        {
           "text": "生产订单",
           "path": "Production/ProdTable.md"
         },
