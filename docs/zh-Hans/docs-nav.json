@@ -2,10 +2,15 @@
   "items": [
     {
       "text": "入门",
+      "path": "Index.md",
       "items": [
         {
           "text": "基础操作和期初设置",
           "path": "Getting-Started.md"
+        },
+        {
+          "text": "流程图",
+          "path": "Flowchart.md"
         }
       ]
     },
