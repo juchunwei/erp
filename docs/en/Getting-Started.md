@@ -1,20 +1,60 @@
-# Getting Started
 
-````json
-//[doc-params]
-{
-    "UI": ["MVC", "Blazor", "NG"],
-    "DB": ["EF", "Mongo"],
-    "Tiered": ["Yes", "No"]
-}
-````
+## 聊天
+- 搜索并添加用户为好友, 进行在线对话
 
-> This document assumes that you prefer to use **{{ UI_Value }}** as the UI framework and **{{ DB_Value }}** as the database provider. For other options, please change the preference on top of this document.
+## 通知
 
-## Contents
+- 页面右上角显示通知信息(见下图), 显示最近的3条通知信息
 
-This tutorial explains how to **create and run** a new web application using the ABP Framework. Follow the steps below;
+- 点击`设置`, 可以订阅通知, (见通知设置图), 选择需要订阅的通知. 
 
-1. [Setup your development environment](Getting-Started-Setup-Environment)
-2. [Creating a new solution](Getting-Started-Create-Solution.md)
-3. [Running the solution](Getting-Started-Running-Solution.md)
+- 点击某一个通知, 可以打开通知对应的页面
+
+- 点击`查看所有通知`, 可以打开所有的通知页面
+
+![image-20210225233313181](images/notifiation.png)
+
+## 关联用户
+
+- 将其他公司的用户和当前用户关联, 设置后, 点击关联用户可之间进入关联公司
+- 管理委托授权: 将自己的权限,指派给其他用户, 可以设置委托期间
+
+![Linkuser](images/linkuser.png)
+
+## 表格操作
+
+1. 右键点击列头，可以显示菜单
+
+2. 可以拖拽列，调整显示顺序
+
+3. 分组显示
+
+![image-20210225232821172](images/image-20210225232821172.png)
+
+## 期初设置
+
+- 公司名称和地址信息: 管理-->公司和门店信息, 新建, 部门留空. 输入其他信息
+
+- 公司Logo. 管理-->设置, 上传Logo, Logo会显示在打印的报表和合同中
+- <font color="red">管理-> 设置中根据需要设置相关的参数. </font>
+- ![Settings](images/Administration/settings.png)
+
+## 库存关闭
+
+参见[库存关闭](Onhands/InventoryClosing.md)
+
+## 数据导入
+
+- 数据模板, 点击[下载]([https://www.erp.apptec.com.cn/template.zip](Https://www.erp.apptec.com.cn/template.zip))模板
+
+- 商品数据导入
+
+- 期初库存导入
+
+- 客户和供应商资料导入
+
+- 员工导入
+
+### 物料清单导入
+
+### 用户导入

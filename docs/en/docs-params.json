@@ -1,12 +1,12 @@
 {
   "parameters": [
     {
-      "name": "UI",
-      "displayName": "UI",
+      "name": "Version",
+      "displayName": "版本",
       "values": {
-        "MVC": "MVC / Razor Pages",
-        "Blazor": "Blazor",
-        "NG": "Angular"
+        "Inventory": "进销存",
+        "Pro": "专业版",
+        "Enterprise": "企业版"
       }
     }
   ]

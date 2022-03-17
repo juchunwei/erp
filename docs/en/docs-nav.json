@@ -1,11 +1,303 @@
-{
+﻿{
   "items": [
     {
-      "text": "Getting Started",
+      "text": "Get started",
+      "path": "Index.md",
       "items": [
         {
-          "text": "Web Application",
+          "text": "Get started",
           "path": "Getting-Started.md"
+        },
+        {
+          "text": "Flowchart",
+          "path": "Flowchart.md"
+        }
+      ]
+    },
+    {
+      "text": "Items management",
+      "items": [
+        {
+          "text": "Items",
+          "path": "Items/Items.md"
+        }
+      ]
+    },
+    {
+      "text": "Inventory management",
+      "items": [
+        {
+          "text": "Product receipt",
+          "path": "Onhands/Receipt.md"
+        },
+
+        {
+          "text": "Item arrival QC",
+          "path": "Onhands/QC.md"
+        },
+
+        {
+          "text": "Packing slip",
+          "path": "Onhands/PackingSlip.md"
+        },
+        {
+          "text": "Inventory journals",
+          "items": [
+            {
+              "text": "Movement journal",
+              "path": "Onhands/Journals/MovementJournal.md"
+            },
+            //{
+            //  "text": "调拨单",
+            //  "path": "Onhands/Journals/TransferJournal.md"
+            //},
+            {
+              "text": "Inventory counting",
+              "path": "Onhands/Journals/CountingJournal.md"
+            }
+          ]
+        },
+        {
+          "text": "Onhand",
+          "path": "Onhands/Onhands.md"
+        },
+        {
+          "text": "Inventory closing",
+          "path": "Onhands/InventoryClosing.md"
+        }
+      ]
+    },
+    {
+      "text": "Purchase",
+      "items": [
+        {
+          "text": "Purchase order",
+          "path": "Purchase/Index.md"
+        },
+        {
+          "text": "Purchase requisition",
+          "path": "Purchase/PurchReq.md"
+        }
+      ]
+    },
+    {
+      "text": "Sales",
+      "items": [
+        {
+          "text": "Overview",
+          "path": "Sales/Index.md"
+        }
+      ]
+    },
+    {
+      "text": "Intercompany order",
+      "path": "InterCompany/InterCompany.md"
+    },
+    {
+      "text": "Production management",
+      "items": [
+        {
+          "text": "Overview",
+          "path": "Production/Index.md"
+        },
+        {
+          "text": "Settings",
+          "items": [
+            {
+              "text": "Calendar",
+              "path": "Production/Calendars.md"
+            },
+            {
+              "text": "Operation",
+              "path": "Production/Operations.md"
+            },
+            {
+              "text": "Route",
+              "path": "Production/Route.md"
+            }
+          ]
+        },
+        {
+          "text": "Planning order",
+          "path": "Production/MasterPlan.md"
+        },
+        {
+          "text": "Production order",
+          "path": "Production/ProdTable.md"
+        },
+        {
+          "text": "Outsourcing",
+          "path": "Production/Outsourcing.md"
+        },
+        {
+          "text": "Production job report",
+          "path": "Production/JobReport.md"
+        },
+        {
+          "text": "QC",
+          "path": "Production/QC.md"
+        },
+        {
+          "text": "Costing",
+          "path": "Production/Cost.md"
+        },
+        {
+          "text": "Safety stock",
+          "path": "Production/SafetyStock.md"
+        }
+      ]
+    },
+    {
+      "text": "Financial",
+      "items": [
+        {
+          "text": "Overview",
+          "path": "Financial/Index.md"
+        },
+        {
+          "text": "Account payable",
+          "items": [
+            {
+              "text": "Vendor invoice",
+              "path": "Financial/AP/Invoice.md"
+            },
+            {
+              "text": "Payment journal",
+              "path": "Financial/AP/PaymentJournal.md"
+            }
+          ]
+
+        },
+        {
+          "text": "Account receivable",
+          "items": [
+            {
+              "text": "Customer invoice",
+              "path": "Financial/AR/Invoice.md"
+            },
+            {
+              "text": "Payment journal",
+              "path": "Financial/AR/PaymentJournal.md"
+            }
+          ]
+
+        },
+        {
+          "text": "Payment",
+          "path": "Financial/Payment.md"
+        }
+      ]
+    },
+    //{
+    //  "text": "总账",
+    //  "items": [
+
+    //  ]
+    //},
+    //{
+    //  "text": "固定资产",
+    //  "path": "FixedAsset/FixedAsset.md",
+    //  "items": [
+
+    //  ]
+    //},
+    {
+      "text": "Human resources",
+      "items": [
+        {
+          "text": "Employees",
+          "path": "HR/Employees.md"
+        },
+        {
+          "text": "Payroll",
+
+          "items": [
+            {
+              "text": "Overview",
+              "path": "HR/Payroll/Index.md"
+            },
+            {
+              "text": "Payroll item",
+              "path": "HR/Payroll/PayrollItem.md"
+            },
+            {
+              "text": "Payroll setup",
+              "path": "HR/Payroll/PayrollSetup.md"
+            },
+            {
+              "text": "Piecework price",
+              "path": "HR/Payroll/PieceworkPrice.md"
+            },
+            {
+              "text": "Tax exemptions",
+              "path": "HR/Payroll/TaxExemptions.md"
+            },
+            {
+              "text": "Export template",
+              "path": "HR/Payroll/PayrollExport.md"
+            }
+          ]
+
+        }
+      ]
+    },
+    {
+      "text": "PLM",
+      "items": [
+        {
+          "text": "Overview",
+          "path": "PLM/Overview.md"
+        },
+        {
+          "text": "Change order type",
+          "path": "PLM/ChangeOrderType.md"
+        },
+        {
+          "text": "Document type",
+          "path": "PLM/DocumentType.md"
+        },
+        {
+          "text": "Folder",
+          "path": "PLM/Folder.md"
+        },
+        {
+          "text": "Documents",
+          "path": "PLM/Documents.md"
+        },
+        {
+          "text": "Change order",
+          "path": "PLM/ChangeOrder.md"
+        }
+      ]
+    },
+    {
+      "text": "Administration",
+      "items": [
+
+        {
+          "text": "Settings",
+          "path": "Administration/Settings.md"
+        },
+        {
+          "text": "Number sequence",
+          "path": "Administration/NumSeq.md"
+        },
+        {
+          "text": "Reports",
+          "items": [
+            {
+              "text": "Overview",
+              "path": "Administration/Reports/Index.md"
+            },
+            //{
+            //  "text": "自定义报表",
+            //  "path": "Administration/Reports/CustomReport.md"
+            //},
+            {
+              "text": "Dashboard",
+              "path": "Administration/Reports/Dashboard.md"
+            }
+          ]
         }
       ]
     }

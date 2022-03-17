@@ -1,73 +1,19 @@
-﻿# ERP 文档
+# ERP 文档
 
-ABP Framework is a complete **infrastructure** based on the **ASP.NET Core** to create **modern web applications** and **APIs** by following the software development **best practices** and the **latest technologies**.
 
-## Getting Started
+## 入门
 
-* [Getting Started Guide](Getting-Started.md) is the easiest way to start a new web application with the ABP Framework.
-* [Web Application Development Tutorial](Tutorials/Part-1.md) is a complete tutorial to develop a full stack web application.
+* [入门](Getting-Started.md) 了解软件的基础操作、设置、数据导入等.
 
-### UI Framework Options
+## 常见问题和bug报告
 
-<img width="500" src="images/ui-options.png">
+* 请点击[此处](https://github.com/juchunwei/erp/issues), 登录GitHub, 咨询和解决问题.
+* 若不能显示图片, 请更改DNS为阿里云223.5.5.5, 223.6.6.6后, 在命令行清除缓存`ipconfig/flushdns`后, 再尝试
 
-### Database Provider Options
+## 适用行业
 
-<img width="500" src="images/db-options.png">
+* 进销存
 
-## Exploring the Documentation
+* 生产
 
-ABP has a **comprehensive documentation** that not only explains the ABP Framework, but also includes **guides** and **samples** to help you on creating a **maintainable solution** by introducing and discussing common **software development principle and best practices**.
-
-### Architecture
-
-ABP offers a complete, modular and layered software architecture based on [Domain Driven Design](Domain-Driven-Design.md) principles and patterns. It also provides the necessary infrastructure to implement this architecture.
-
-* See the [Modularity](Module-Development-Basics.md) document to understand the module system.
-* [Implementing Domain Driven Design](Domain-Driven-Design-Implementation-Guide.md) document is an ultimate guide for who want to understand and implement the DDD.
-* [Microservice Architecture](Microservice-Architecture.md) document explains how ABP helps to create a microservice solution.
-
-### Infrastructure
-
-There are a lot of features provided by the ABP Framework to achieve real world scenarios easier, like [Event Bus](Event-Bus.md), [Background Job System](Background-Jobs.md), [Audit Logging](Audit-Logging.md), [BLOB Storing](Blob-Storing.md), [Data Seeding](Data-Seeding.md), [Data Filtering](Data-Filtering.md).
-
-### Cross Cutting Concerns
-
-ABP also simplifies (and even automates wherever possible) cross cutting concerns and common non-functional requirements like [Exception Handling](Exception-Handling.md), [Validation](Validation.md), [Authorization](Authorization.md), [Localization](Localization.md), [Caching](Caching.md), [Dependency Injection](Dependency-Injection.md), [Setting Management](Settings.md), etc. 
-
-### Application Modules
-
-Application Modules provides pre-built application functionalities;
-
-* [**Account**](Modules/Account.md): Provides UI for the account management and allows user to login/register to the application.
-* **[Identity](Modules/Identity.md)**: Manages organization units, roles, users and their permissions, based on the Microsoft Identity library.
-* [**IdentityServer**](Modules/IdentityServer.md): Integrates to IdentityServer4.
-* [**Tenant Management**](Modules/Tenant-Management.md): Manages tenants for a [multi-tenant](Multi-Tenancy.md) (SaaS) application.
-
-See the [Application Modules](Modules/Index.md) document for all pre-built modules.
-
-### Startup Templates
-
-The [Startup templates](Startup-Templates/Index.md) are pre-built Visual Studio solution templates. You can create your own solution based on these templates to **immediately start your development**.
-
-## ABP Community
-
-### The Source Code
-
-ABP is hosted on GitHub. See [the source code](https://github.com/abpframework).
-
-### ABP Community Web Site
-
-The [ABP Community](https://community.abp.io/) is a website to publish articles and share knowledge about the ABP Framework. You can also create content for the community!
-
-### Blog
-
-Follow the [ABP Blog](https://blog.abp.io/) to learn the latest happenings in the ABP Framework.
-
-### Samples
-
-See the [sample projects](Samples/Index.md) built with the ABP Framework.
-
-### Want to Contribute?
-
-ABP is a community-driven open source project. See [the contribution guide](Contribution/Index.md) if you want to be a part of this project.
+* 外贸服装
