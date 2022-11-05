@@ -15,6 +15,27 @@
       ]
     },
     {
+      "text": "外贸",
+      "items": [
+        {
+          "text": "概览",
+          "path": "Trade/Index.md"
+        },
+        {
+          "text": "报价单",
+          "path": "Trade/Quotation.md"
+        },
+        {
+          "text": "核价单",
+          "path": "Trade/Costing.md"
+        },
+        {
+          "text": "备料表",
+          "path": "Trade/bom.md"
+        }
+      ]
+    },
+    {
       "text": "物料管理",
       "items": [
         {
