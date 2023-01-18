@@ -1,13 +1,18 @@
-﻿## 路径: 
+﻿## 路径
+
 - 管理-->报表设计
 ![Index Report](../../images/Administration/index-report.png)
 
 ## 说明
+
 - 报表分为系统`默认`报表和`租户`自建报表, 可以筛选 `租户`和`默认`
 - 系统`默认`报表不允许用户修改
 - 如要自定义系统已有的报表样式, 可以先筛选`默认`报表, 选择要修改的报表, 点击`复制`后, `保存`成租户自己的报表, 然后点击`设计`按钮进行修改并`保存`
+
 ### 自定义报表特殊控件
+
 以下特殊控件, 须设置特殊的名称, 打开报表时会根据控件名称设置相应的值
+
 - Logo: 如果要显示logo, 请添加图像控件,并将名称改为`logo`
 - 物料属性表格列: 标题的控件名请以`InventDimTitle`开头, 例如颜色,控件名为`InventDimTitleColor`, 便于自动隐藏列
 - 库位的控件名要包含`Location`
@@ -18,6 +23,7 @@
 - 参数: `tenantId`, 用于查询特定内部公司的数据
 
 ### 字段
+
 - 订单类型: 选择报表用于的订单或者自定义报表, 仪表板, 图表等
 - 名称: 报表的名称, 设置后, 在工作台的*自定义报表* 中会自动按系统已有的本地化文本显示(为英文且系统中含有该文本的翻译, 参见管理->语言列表)
 - 标题: 图表的标题
@@ -27,3 +33,22 @@
 - 类别: 自定义报表时, 显示在工作台*自定义报表*中的类别
 - 许可: 该报表需要的权限
 - 模板组: 将报表分为不同的组, 可以在管理-设置中设置默认的模板组, 比如有三等分的模板和A4的模板
+
+### 表格报表
+
+- sql语句示例:
+    `select i.name, sum(l.qty) as qty from PackingSlipJournalLines l inner join PackingSlipJournals p on l.PackingSlipJournalId=p.id inner join Items i on l.ItemId=i.Id where {0}
+group by i.name
+order by qty desc`
+- 参数:
+`[
+    {
+        "name":"fromDate",
+        "title":"开始日期",
+        "type":"date",
+        "required":true,
+        "logical":"",
+        "field":"p.orderdate",
+        "operator":">="
+    }
+]`
